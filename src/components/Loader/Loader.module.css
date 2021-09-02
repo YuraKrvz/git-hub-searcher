@@ -1,0 +1,52 @@
+
+    @keyframes ldio-21prrz2guxe {
+        0% { transform: rotate(0deg) }
+       50% { transform: rotate(22.5deg) }
+      100% { transform: rotate(45deg) }
+    }
+    .ldio-21prrz2guxe > div {
+      transform-origin: 100px 100px;
+      animation: ldio-21prrz2guxe 1.4492753623188404s infinite linear;
+    }
+    .ldio-21prrz2guxe > div div {
+        position: absolute;
+        width: 22px;
+        height: 152px;
+        background: #ffffff;
+        left: 100px;
+        top: 100px;
+        transform: translate(-50%,-50%);
+    }
+    .ldio-21prrz2guxe > div div:nth-child(1) {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    .ldio-21prrz2guxe > div div:nth-child(6) {
+        width: 80px;
+        height: 80px;
+        background: #000;
+        border-radius: 50%;
+    }.ldio-21prrz2guxe > div div:nth-child(3) {
+      transform: translate(-50%,-50%) rotate(45deg)
+    }.ldio-21prrz2guxe > div div:nth-child(4) {
+      transform: translate(-50%,-50%) rotate(90deg)
+    }.ldio-21prrz2guxe > div div:nth-child(5) {
+      transform: translate(-50%,-50%) rotate(135deg)
+    }
+    .loadingio-spinner-gear-oskzixp0lsh {
+      width: 200px;
+      height: 200px;
+      display: inline-block;
+      overflow: hidden;
+      background: transparent;
+    }
+    .ldio-21prrz2guxe {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      transform: translateZ(0) scale(1);
+      backface-visibility: hidden;
+      transform-origin: 0 0; /* see note above */
+    }
+    .ldio-21prrz2guxe div { box-sizing: content-box; }
