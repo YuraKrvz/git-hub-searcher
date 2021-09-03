@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
    max-width: 770px;
    padding: 20px 0;
-   margin: 80px auto;
+   margin: 20px auto;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background-color: black;
-   color: #fff;
+   background-color: silver;
+   color: #000;
    min-height: 100%;
    border-radius: 10px;
 `;
@@ -21,10 +21,10 @@ export const Input = styled.input`
    margin-top: 10px;
    padding: 14px 32px 14px 16px;
    border-radius: 4px 0 0 4px;
-   border: 2px solid #5d0cff;
+   border: 2px solid #000;
    outline: none;
    background: transparent;
-   color: #fff;
+   color: #000;
 
    // $:placeholder{
    //    color: black;
@@ -43,7 +43,7 @@ export const A = styled.a`
    padding: 10px;
    color: inherit;
    text-decoration: none;
-   border-bottom: 1px solid #5d0cff;
+   border-bottom: 2px solid #000;
    width: 100%;
 `;
 
@@ -52,10 +52,10 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
-   color: #fff;
+   color: #000;
 `;
 
 export const H5 = styled.div`
    margin: 10px 0;
-   color: #5d0cff;
+   color: #000;
 `;

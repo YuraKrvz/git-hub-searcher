@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router';
 import { Container, H5 } from '../HomeElements';
 import Loader from '../../components/Loader';
-import { PersonInner, DataWrapper, Img, Button, P } from './PersonElements';
+import { PersonInner, DataWrapper, Img, Button, P, A } from './PersonElements';
 
 const Person = ()=> {
   const {id} = useParams();
@@ -50,7 +50,7 @@ const Person = ()=> {
           Stars: {repositories.stargazers_count}&nbsp; 
           Forks: {repositories.forks}&nbsp; 
           Name:
-          <a href={repositories.html_url}> {repositories.name} </a>  
+          <A href={repositories.html_url}> {repositories.name} </A>  
         </li>
       ) ) } </ul>}
     </Container>

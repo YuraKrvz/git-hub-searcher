@@ -25,14 +25,18 @@ export const Button = styled.a`
    text-align: center;
    text-decoration: none;
    //background: linear-gradient(90deg, rgba(93,12,255,1) 0%, rgba(155,0,255,1) 100%);
-   background-color: #5d0cff;
-   color: #000;
+   background-color: rgba(0, 0, 0, 0.53);
+   color: #fff;
 `;
 
 export const P = styled.p`
-   border-top: 2px solid #5d0cff;
+   border-top: 2px solid #000;
    width 550px;
    padding-top: 10px;
    margin: 10px;
    text-align: center;
+`;
+
+export const A = styled.a`
+   color: #000;
 `;
